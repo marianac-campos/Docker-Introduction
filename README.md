@@ -1,13 +1,11 @@
 # Introdução ao Docker
 
-Projeto gerado na videoaula do canal no YouTube do Programador a Bordo.
-
-Link da aula:
-https://www.youtube.com/watch?v=Kzcz-EVKBEQ
+<p align=center>Projeto gerado na videoaula do canal no YouTube do Programador a Bordo.</p>
+<p align=center>Link da aula: https://www.youtube.com/watch?v=Kzcz-EVKBEQ</p>
 
 ## C O M O   R O D A R 
 
-### 👩‍💻 Instalando dependências
+### 👩‍💻 | Instalando dependências
 Acesse a pasta `./api` no terminal e execute:
 
 ```
@@ -16,7 +14,7 @@ npm install
 
 Com isso instalamos as dependências Node que precisamos. Utilizamos o Node 10.
 
-### 🛠️ Construindo as imagens
+### 🛠️ | Construindo as imagens
 
 Acesse a pasta raíz do projeto e construa cada imagem (MySQL, Node API e PHP):
 
@@ -32,7 +30,7 @@ docker build -t node-image -f api/Dockerfile .
 docker build -t php-image -f website/Dockerfile .
 ```
 
-### 🎚️ Rodando os containers
+### 🎚️ | Rodando os containers
 Na pasta raíz do projeto, execute um de cada vez:
 
 ```
@@ -47,7 +45,7 @@ docker run -d -v $(pwd)/api:/home/node/app -p 9001:9001 --link mysql-container -
 docker run -d -v "$(pwd)/website":/var/www/html -p 8888:80 --link node-container --rm --name php-container php-image
 ```
 
-### 📥 Agora faça o restore do banco de dados:
+### 📥 | Agora faça o restore do banco de dados:
 
 ```
 docker exec -i mysql-container mysql -uroot -pprogramadorabordo < api/db/script.sql
