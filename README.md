@@ -1,9 +1,9 @@
 # Introdução ao Docker
 
-<p align=center>Projeto gerado na videoaula do canal no YouTube do Programador a Bordo.</p>
-<p align=center>Link da aula: https://www.youtube.com/watch?v=Kzcz-EVKBEQ</p>
+Projeto gerado na videoaula do canal no YouTube do Programador a Bordo.
+Link da aula: https://www.youtube.com/watch?v=Kzcz-EVKBEQ
 
-## C O M O   R O D A R 
+<h2>C O M O    R O D A R</h2> 
 
 ### 👩‍💻 | Instalando dependências
 Acesse a pasta `./api` no terminal e execute:
