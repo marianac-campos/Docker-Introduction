@@ -3,7 +3,7 @@
 Projeto gerado na videoaula do canal no YouTube do Programador a Bordo.
 Link da aula: https://www.youtube.com/watch?v=Kzcz-EVKBEQ
 
-<h2>C O M O    R O D A R</h2> 
+## Como Rodar
 
 ### 👩‍💻 | Instalando dependências
 Acesse a pasta `./api` no terminal e execute:
